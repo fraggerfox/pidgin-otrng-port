@@ -32,7 +32,7 @@ GNU_CONFIGURE=	yes
 USE_GITHUB=	yes
 GH_ACCOUNT=	otrv4
 GH_PROJECT=	pidgin-otrng
-GH_TAGNAME=	0b01aa6
+GH_TAGNAME=	721d01d
 
 INSTALL_TARGET=	install-strip
 
