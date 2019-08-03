@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	pidgin-otrng
-DISTVERSION=	g20190712
+DISTVERSION=	g20190803
 CATEGORIES=	security net-im net
 MASTER_SITES=	https://otr.im/
 
@@ -32,7 +32,7 @@ GNU_CONFIGURE=	yes
 USE_GITHUB=	yes
 GH_ACCOUNT=	otrv4
 GH_PROJECT=	pidgin-otrng
-GH_TAGNAME=	7be84f9
+GH_TAGNAME=	42b9be5
 
 INSTALL_TARGET=	install-strip
 
