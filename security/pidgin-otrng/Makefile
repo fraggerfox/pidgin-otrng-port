@@ -1,8 +1,10 @@
 # $FreeBSD$
 
+# WIP Package, remove / replace all wip instances before submission
+
 PORTNAME=	pidgin-otrng
 DISTVERSION=	g20190803
-CATEGORIES=	security net-im net
+CATEGORIES=	wip security net-im net
 MASTER_SITES=	https://otr.im/
 
 MAINTAINER=	santhosh.raju@gmail.com
@@ -15,9 +17,9 @@ LICENSE_FILE=	${WRKSRC}/COPYING
 BUILD_DEPENDS=	pidgin:net-im/pidgin
 LIB_DEPENDS=	libgcrypt.so:security/libgcrypt \
 		libgpg-error.so:security/libgpg-error \
-		libgoldilocks.so:security/libgoldilocks \
+		libgoldilocks.so:wip/libgoldilocks \
 		libotr.so:security/libotr \
-		libotr-ng.so:security/libotr-ng \
+		libotr-ng.so:wip/libotr-ng \
 		libpurple.so:net-im/libpurple \
 		libsodium.so:security/libsodium
 
