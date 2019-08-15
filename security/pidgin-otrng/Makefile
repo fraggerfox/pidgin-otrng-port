@@ -3,7 +3,7 @@
 # WIP Package, remove / replace all wip instances before submission
 
 PORTNAME=	pidgin-otrng
-DISTVERSION=	g20190909
+DISTVERSION=	g20190815
 CATEGORIES=	wip security net-im net
 MASTER_SITES=	https://otr.im/
 
@@ -34,7 +34,7 @@ GNU_CONFIGURE=	yes
 USE_GITHUB=	yes
 GH_ACCOUNT=	otrv4
 GH_PROJECT=	pidgin-otrng
-GH_TAGNAME=	0145537
+GH_TAGNAME=	a7bd48e
 
 INSTALL_TARGET=	install-strip
 
