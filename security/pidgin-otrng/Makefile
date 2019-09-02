@@ -7,7 +7,7 @@ DISTVERSION=	g20190815
 CATEGORIES=	wip security net-im net
 MASTER_SITES=	https://otr.im/
 
-MAINTAINER=	santhosh.raju@gmail.com
+MAINTAINER=	fox@FreeBSD.org
 COMMENT=	Allows deniable private conversations using Pidgin with \
 		OTR version 4
 
